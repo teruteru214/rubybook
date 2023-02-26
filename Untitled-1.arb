@@ -1,0 +1,4 @@
+require "net/http"
+require "url"
+url = URL.parse("https://example.com/")
+puts Net::HTTP.get(url)
